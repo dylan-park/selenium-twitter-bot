@@ -1,10 +1,10 @@
 from selenium import webdriver
 from selenium import common
 from selenium.webdriver.common import keys
-from webdriver_manager.firefox import GeckoDriverManager
+from webdriver_manager.chrome import ChromeDriverManager
 import time
 
-driver = webdriver.Firefox(executable_path=GeckoDriverManager().install())
+driver = webdriver.Chrome()
 
 class TwitterBot:
 
